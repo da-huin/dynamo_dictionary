@@ -5,7 +5,7 @@
 from setuptools import find_packages, setup
 
 setup(name='dynamo_dictionary',
-      version='0.1',
+      version='1.0',
       description='Easily Use DynamoDB as a key-value format.',
       long_description="Please refer to the https://github.com/da-huin/dynamo_dictionary",
       long_description_content_type="text/markdown",
@@ -15,6 +15,7 @@ setup(name='dynamo_dictionary',
       author_email='dahuin000@gmail.com',
       license='MIT',
       packages=find_packages(),
+      install_requires=["boto3"],
       classifiers=[
           'Programming Language :: Python :: 3',
     ]
