@@ -52,30 +52,30 @@ pip install dynamo_dictionary
 
 #### 1. Access Key required for DynamoDB Authentication. If you don't have Access Key, Please follow below steps.
 
-1. Click below URL.
+1. **Click below URL.**
 
     https://console.aws.amazon.com/iam/home#/users
 
-2. Click `Add user` button.
+2. **Click `Add user` button.**
 
     ![add-user-1](./static/add-user-1.png)
 
-3. Input `User name` and enable `Programmatic access`.
+3. **Input `User name` and enable `Programmatic access`.**
 
     ![add-user-2](./static/add-user-2.png)
 
-4. Click `Attach existing policies directly` and Search `S3FullAccess` and check `AmazonS3FullAccess` and click `Next:Tags`.
+4. **Click `Attach existing policies directly` and Search `S3FullAccess` and check `AmazonS3FullAccess` and click `Next:Tags`.**
 
     ![add-user-3](./static/add-user-3.png)
 
-5. Click `Next:Review`
+5. **Click `Next:Review`**
 
     ![add-user-4](./static/add-user-4.png)
 
-6. click `Create user`
+6. **click `Create user`**
     ![add-user-5](./static/add-user-5.png)
 
-7. copy `Access Key ID` and `Secret access Key` to user notepad.
+7. **copy `Access Key ID` and `Secret access Key` to user notepad.**
 
     ![add-user-6](./static/add-user-6.png)
 
